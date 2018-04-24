@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace lab_24_04
 {
-    class Arbol_Binario
+    class Arbol_Binario<T>
     {
+        T objeto;
+        Node<T> nodo;
+
+        public void AgregarInfo(Node<T> nodo, T objeto)
+        {
+            nodo.objeto = objeto;
+        }
+
+        public void AgregarHijoIzq(Node<T> nodo)
+        {
+
+        }
+        public void AgregarHijoIzq(Node<T> nodo)
+        {
+
+        }
     }
 }
+
